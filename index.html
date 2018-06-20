@@ -1,0 +1,1027 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top custom-navs" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="image"/> <span class="find-right">FIND THE RIGHT LAWYER</span></a>
+        </div>
+        <div id="navbarCustom" class="navbar-custom-class">
+            <div class="top-check">
+                <ul>
+                  <li><i class="fas fa-check"></i> No fee to present your case</li>
+                  <li><i class="fas fa-check"></i> Choose from lawyers in your area</li>
+                  <li><i class="fas fa-check"></i> A 100% confidential service</li>
+                </ul>
+            </div>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+    <div class="clear"></div>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron middle-text-wrap">
+      <div class="container">
+        <div class="left-find">
+          <h2>Find a Lawyer for your Legal Issue</h2>
+          <p class="fast">Fast, Free and Confidential</p>
+        </div>
+        <div class="form-search">
+          <form>
+            <div class="input-container">
+                <label>Enter Zip Code or City:</label><br/>
+                <span class="numbers">1</span>
+                <input id="zip" class="zip-code" type="field" placeholder="Does not have to be where you live" name="Does not have to be where you live" />
+            </div>
+            <div class="input-container dropddown-category">
+                <label>Choose a category:</label><br/>
+                <span class="numbers">2</span>
+                 <select id="myselect" name="Click to choose legal category">
+                      <option class="lega-first" value="" disabled selected>Click to choose legal category</option>
+                      <option value="Family">Family</option>
+                      <option value="Criminal-Defense">Criminal Defense</option>
+                      <option value="Business">Business</option>
+                      <option value="Personal-Injury">Personal Injury</option>
+                      <option value="Bankcruptcy">Bankcruptcy & Finances</option>
+                      <option value="Products">Products & Services</option>
+                      <option value="Employment">Employment</option>
+                      <option value="Real-Estate">Real Estate</option>
+                      <option value="Immigration">Immigration</option>
+                      <option value="Wills-Truests-and-Estates">Wills, Truests & Estates</option>
+                      <option value="Government">Government</option>
+                      <option value="Intellectual-Property">Intellectual Property</option>
+                </select> 
+                <span class="arrow-down"><i class="fas fa-angle-down"></i></span>
+            </div>
+            <div class="cant-find-category">
+              <p>Can’t find your category? <a href="" data-toggle="modal" data-target="#clickcategory">Click here</a>.</p>
+            </div>
+          </form>
+        </div>
+        <div class="client-reviews">
+          <h2 class="client-rev-text">Clients review LegalMatch lawyers</h2>
+            <!-- review 1-->
+            <div class="client-container">
+                <div class="profile-pic">
+                  <div class="img-pp"><img src="img/mitchell.png" alt="profile picture"/></div>
+                  <div class="name-pp">Mitchell M.</div>
+                  <div class="address-pp">Cherry Hill, NJ</div>
+                </div>
+                <div class="personal-review">
+                  <div class="review-head">
+                    <div class="review-head-top">
+                      <h1>Family Law</h1>
+                        <ul>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                  </div>
+                  <div class="review-textcontent">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et ...”</p>
+                    <p class="review-a"><a href="#" data-toggle="modal" data-target="#clientreviewone" class="read-review">Read Review</a></p>
+                  </div>
+                </div>
+            </div>
+
+            <!-- review 2-->
+            <div class="client-container">
+                <div class="profile-pic">
+                  <div class="img-pp"><img src="img/joelc.png" alt="profile picture"/></div>
+                  <div class="name-pp">Joel C.</div>
+                  <div class="address-pp">Little Rock, AK</div>
+                </div>
+                <div class="personal-review">
+                  <div class="review-head">
+                    <div class="review-head-top">
+                      <h1>Job & Employment Law</h1>
+                        <ul>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                  </div>
+                  <div class="review-textcontent">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ..."</p>
+                    <p class="review-a"><a href="#" data-toggle="modal" data-target="#clientreviewtwo" class="read-review">Read Review</a></p>
+                  </div>
+                </div>
+            </div>
+
+            <!-- review 3-->
+            <div class="client-container">
+                <div class="profile-pic">
+                  <div class="img-pp"><img src="img/bridfit.png" alt="profile picture"/></div>
+                  <div class="name-pp">Brigida R.</div>
+                  <div class="address-pp">Dallas, TX</div>
+                </div>
+                <div class="personal-review">
+                  <div class="review-head">
+                    <div class="review-head-top">
+                      <h1>Family Law</h1>
+                        <ul>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                          <li><i class="fas fa-star"></i></li>
+                        </ul>
+                    </div>
+                  </div>
+                  <div class="review-textcontent">
+                    <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ..."</p>
+                    <p class="review-a"><a href="#" data-toggle="modal" data-target="#clientreviewthree" class="read-review">Read Review</a></p>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer">
+      <!-- footer row of columns -->
+      <div class="row">
+        <div class="col-md-3 first-col common-col">
+          <p><img src="img/logo.png" alt="image"/> <span class="find-right">FIND THE RIGHT LAWYER</span></p>
+        </div>
+        <div class="col-md-6 second-col common-col">
+          <ul>
+            <li><a href="#">User Agreement</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Site Map</a></li>
+          </ul>
+          <div class="bottom-second-text">
+              <p>Copyright 1999-2016 LegalMatch. All rights reserved. LegalMatch <sup>&#9415</sup>, <br/> the LegalMatch logo, and the tradedress are trademarks of LegalMatch. Patents Pending.</p>
+          </div>
+       </div>
+        <div class="col-md-3 third-col common-col">
+            <div><img src="img/truste.png" alt="truste seal"/></div>
+             <div><img src="img/bbb.png" alt="truste seal"/></div>
+        </div>
+      </div>
+
+      <hr>
+
+    </div> <!-- /container -->  
+
+<!-- family modal -->  
+<div class="modal fade" id="familyModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Family Law</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Adoptions" value="Adoptions" /> Adoptions</li>
+              <li><input type="checkbox" name="Child Support" value="Child Support" /> Child Support</li>
+              <li><input type="checkbox" name="Guardianship" value="Guardianship" /> Guardianship</li>
+              <li><input type="checkbox" name="Separations" value="Separations" /> Separations</li>
+              <li><input type="checkbox" name="Child Custody and Visitation" value="Child Custody and Visitation" /> Child Custody and Visitation</li>
+              <li><input type="checkbox" name="Divorce" value="Divorce" /> Divorce</li>
+              <li><input type="checkbox" name="Paternity" value="Paternity" /> Paternity</li>
+              <li><input type="checkbox" name="Spousal Support or Alimony" value="Spousal Support or Alimony" /> Spousal Support or Alimony</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+<!-- Criminal Defense modal --> 
+  <div class="modal fade" id="criminalModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Criminal Defense</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Criminal Defense 1" value="Criminal Defense 1" /> Criminal Defense 1</li>
+              <li><input type="checkbox" name="Criminal Defense 2" value="Criminal Defense 2" /> Criminal Defense 2</li>
+              <li><input type="checkbox" name="Criminal Defense 3" value="Criminal Defense 3" /> Criminal Defense 3</li>
+              <li><input type="checkbox" name="Criminal Defense 4" value="Criminal Defense 4" /> Criminal Defense 4</li>
+              <li><input type="checkbox" name="Criminal Defense 5" value="Criminal Defense 5" /> Criminal Defense 5</li>
+              <li><input type="checkbox" name="Criminal Defense 6" value="Criminal Defense 6" /> Criminal Defense 6</li>
+              <li><input type="checkbox" name="Criminal Defense 7" value="Criminal Defense 7" /> Criminal Defense 7</li>
+              <li><input type="checkbox" name="Criminal Defense 8" value="Criminal Defense 8" /> Criminal Defense 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- business modal --> 
+  <div class="modal fade" id="businessModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Business</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Business 1" value="Business 1" /> Business 1</li>
+              <li><input type="checkbox" name="Business 2" value="Business 2" /> Business 2</li>
+              <li><input type="checkbox" name="Business 3" value="Business 3" /> Business 3</li>
+              <li><input type="checkbox" name="Business 4" value="Business 4" /> Business 4</li>
+              <li><input type="checkbox" name="Business 5" value="Business 5" /> Business 5</li>
+              <li><input type="checkbox" name="Business 6" value="Business 6" /> Business 6</li>
+              <li><input type="checkbox" name="Business 7" value="Business 7" /> Business 7</li>
+              <li><input type="checkbox" name="Business 8" value="Business 8" /> Business 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Personal Injury modal --> 
+  <div class="modal fade" id="personalModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Business</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Personal Injury 1" value="Personal Injury 1" /> Personal Injury 1</li>
+              <li><input type="checkbox" name="Personal Injury 2" value="Personal Injury 2" /> Personal Injury 2</li>
+              <li><input type="checkbox" name="Personal Injury 3" value="Personal Injury 3" /> Personal Injury 3</li>
+              <li><input type="checkbox" name="Personal Injury 4" value="Personal Injury 4" /> Personal Injury 4</li>
+              <li><input type="checkbox" name="Personal Injury 5" value="Personal Injury 5" /> Personal Injury 5</li>
+              <li><input type="checkbox" name="Personal Injury 6" value="Personal Injury 6" /> Personal Injury 6</li>
+              <li><input type="checkbox" name="Personal Injury 7" value="Personal Injury 7" /> Personal Injury 7</li>
+              <li><input type="checkbox" name="Personal Injury 8" value="Personal Injury 8" /> Personal Injury 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Bankcruptcy and Finances modal --> 
+  <div class="modal fade" id="bankModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Business</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Bankcruptcy and Finances 1" value="Bankcruptcy and Finances 1" /> Bankcruptcy & Finances 1</li>
+              <li><input type="checkbox" name="Bankcruptcy and Finances 2" value="Bankcruptcy and Finances 2" /> Bankcruptcy & Finances 2</li>
+              <li><input type="checkbox" name="Bankcruptcy and Finances 3" value="Bankcruptcy and Finances 3" /> Bankcruptcy & Finances 3</li>
+              <li><input type="checkbox" name="Bankcruptcy and Finances 4" value="Bankcruptcy and Finances 4" /> Bankcruptcy & Finances 4</li>
+              <li><input type="checkbox" name="Bankcruptcy and Finances 5" value="Bankcruptcy and Finances 5" /> Bankcruptcy & Finances 5</li>
+              <li><input type="checkbox" name="Bankcruptcy and Finances 6" value="Bankcruptcy and Finances 6" /> Bankcruptcy & Finances 6</li>
+              <li><input type="checkbox" name="Bankcruptcy and Finances 7" value="Bankcruptcy and Finances 7" /> Bankcruptcy & Finances 7</li>
+              <li><input type="checkbox" name="Bankcruptcy and Finances 8" value="Bankcruptcy and Finances 8" /> Bankcruptcy & Finances 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Products & Services modal --> 
+  <div class="modal fade" id="productsModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Business</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Products and Services 1" value="Products and Services 1" /> Products & Services 1</li>
+              <li><input type="checkbox" name="Products and Services 2" value="Products and Services 2" /> Products & Services 2</li>
+              <li><input type="checkbox" name="Products and Services 3" value="Products and Services 3" /> Products & Services 3</li>
+              <li><input type="checkbox" name="Products and Services 4" value="Products and Services 4" /> Products & Services 4</li>
+              <li><input type="checkbox" name="Products and Services 5" value="Products and Services 5" /> Products & Services 5</li>
+              <li><input type="checkbox" name="Products and Services 6" value="Products and Services 6" /> Products & Services 6</li>
+              <li><input type="checkbox" name="Products and Services 7" value="Products and Services 7" /> Products & Services 7</li>
+              <li><input type="checkbox" name="Products and Services 8" value="Products and Services 8" /> Products & Services 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+    <!--Employmet modal --> 
+    <div class="modal fade" id="employmentModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Business</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Employment 1" value="Employment 1" /> Employment 1</li>
+              <li><input type="checkbox" name="Employment 2" value="Employment 2" /> Employment 2</li>
+              <li><input type="checkbox" name="Employment 3" value="Employment 3" /> Employment 3</li>
+              <li><input type="checkbox" name="Employment 4" value="Employment 4" /> Employment 4</li>
+              <li><input type="checkbox" name="Employment 5" value="Employment 5" /> Employment 5</li>
+              <li><input type="checkbox" name="Employment 6" value="Employment 6" /> Employment 6</li>
+              <li><input type="checkbox" name="Employment 7" value="Employment 7" /> Employment 7</li>
+              <li><input type="checkbox" name="Employment 8" value="Employments 8" /> Employment 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+    <!-- Real Estate modal --> 
+  <div class="modal fade" id="estateModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Business</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Real Estate 1" value="Real Estate 1" /> Real Estate 1</li>
+              <li><input type="checkbox" name="Real Estate 2" value="Real Estate 2" /> Real Estate 2</li>
+              <li><input type="checkbox" name="Real Estate 3" value="Real Estate 3" /> Real Estate 3</li>
+              <li><input type="checkbox" name="Real Estate 4" value="Real Estate 4" /> Real Estate 4</li>
+              <li><input type="checkbox" name="Real Estate 5" value="Real Estate 5" /> Real Estate 5</li>
+              <li><input type="checkbox" name="Real Estate 6" value="Real Estate 6" /> Real Estate 6</li>
+              <li><input type="checkbox" name="Real Estate 7" value="Real Estate 7" /> Real Estate 7</li>
+              <li><input type="checkbox" name="Real Estate 8" value="Real Estate 8" /> Real Estate 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+   <!--Immigration modal --> 
+    <div class="modal fade" id="immigrationModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Business</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Immigration 1" value="Immigration 1" /> Immigration 1</li>
+              <li><input type="checkbox" name="Immigration 2" value="Immigration 2" /> Immigration 2</li>
+              <li><input type="checkbox" name="Immigration 3" value="Immigration 3" /> Immigration 3</li>
+              <li><input type="checkbox" name="Immigration 4" value="Immigration 4" /> Immigration 4</li>
+              <li><input type="checkbox" name="Immigration 5" value="Immigration 5" /> Immigration 5</li>
+              <li><input type="checkbox" name="Immigration 6" value="Immigration 6" /> Immigration 6</li>
+              <li><input type="checkbox" name="Immigration 7" value="Immigration 7" /> Immigration 7</li>
+              <li><input type="checkbox" name="Immigration 8" value="Immigration 8" /> Immigration 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!--Wills, Truests & Estates modal --> 
+    <div class="modal fade" id="willsModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Business</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Wills 1" value="Wills 1" /> Wills, Truests & Estates 1</li>
+              <li><input type="checkbox" name="Wills 2" value="Wills 2" /> Wills, Truests & Estates 2</li>
+              <li><input type="checkbox" name="Wills 3" value="Wills 3" /> Wills, Truests & Estates 3</li>
+              <li><input type="checkbox" name="Wills 4" value="Wills 4" /> Wills, Truests & Estates 4</li>
+              <li><input type="checkbox" name="Wills 5" value="Wills 5" /> Wills, Truests & Estates 5</li>
+              <li><input type="checkbox" name="Wills 6" value="Wills 6" /> Wills, Truests & Estates 6</li>
+              <li><input type="checkbox" name="Wills 7" value="Wills 7" /> Wills, Truests & Estates 7</li>
+              <li><input type="checkbox" name="Wills 8" value="Wills 8" /> Wills, Truests & Estates 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!--Government modal --> 
+    <div class="modal fade" id="governmentModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Business</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Government 1" value="Government 1" /> Government 1</li>
+              <li><input type="checkbox" name="Government 2" value="Government 2" /> Government 2</li>
+              <li><input type="checkbox" name="Government 3" value="Government 3" /> Government 3</li>
+              <li><input type="checkbox" name="Government 4" value="Government 4" /> Government 4</li>
+              <li><input type="checkbox" name="Government 5" value="Government 5" /> Government 5</li>
+              <li><input type="checkbox" name="Government 6" value="Government 6" /> Government 6</li>
+              <li><input type="checkbox" name="Government 7" value="Government 7" /> Government 7</li>
+              <li><input type="checkbox" name="Government 8" value="Government 8" /> Government 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+   <!--Intellectual Property modal --> 
+    <div class="modal fade" id="ipModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header">
+          <h4 class="modal-title"><span class="modal-number">1</span> Which <strong>Business</strong> issue(s) apply to your case?</h4>
+        </div>
+        <div class="modal-body">
+            <ul>
+              <li><input type="checkbox" name="Intellectual Property 1" value="Intellectual Property 1" /> Intellectual Property 1</li>
+              <li><input type="checkbox" name="Intellectual Property 2" value="Intellectual Property 2" /> Intellectual Property 2</li>
+              <li><input type="checkbox" name="Intellectual Property 3" value="Intellectual Property 3" /> Intellectual Property 3</li>
+              <li><input type="checkbox" name="Intellectual Property 4" value="Intellectual Property 4" /> Intellectual Property 4</li>
+              <li><input type="checkbox" name="Intellectual Property 5" value="Intellectual Property 5" /> Intellectual Property 5</li>
+              <li><input type="checkbox" name="Intellectual Property 6" value="Intellectual Property 6" /> Intellectual Property 6</li>
+              <li><input type="checkbox" name="Intellectual Property 7" value="Intellectual Property 7" /> Intellectual Property 7</li>
+              <li><input type="checkbox" name="Intellectual Property 8" value="Intellectual Property 8" /> Intellectual Property 8</li>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default">Find a lawyer Now</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+<!--End modals for select category-->
+
+  <!--Review one modal --> 
+    <div class="modal fade" id="clientreviewone" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content modal-review">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header modal-header-client">
+          <h4 class="modal-title">Client Reviews</h4>
+        </div>
+        <div class="modal-body">
+           <div class="modal-profile-pic">
+                <div class="top-img-modal">
+                  <div class="img-pp-modal"><img src="img/mitchell.png" alt="profile picture"/></div>
+                  <div class="name-pp-modal">
+                    <h2>Mitchell M.</h2>
+                    <p class="address-modal">Cherry Hill, NJ</p>
+                    <p class="header-text-title">Family Law</p>
+                  </div>
+                </div>
+              <div class="rating-modal">
+                  <div class="rating-tet">Rating <span class="users-text">(29 users)</span></div>
+                  <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                   </ul>
+              </div>
+              <div class="detailed-ratings-modal">
+                <p><strong>Overall</strong> 
+                      <span class="ratings-star five-star">
+                        <i class="fas fa-star"></i>  
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                      </span>
+                </p>
+                <p>Responded in a timely manner 
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Answered questions clearly 
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Understood Needs 
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Gave complete and clear information 
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Knowledgeable in legal area
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Good value for money
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                 <p>Would hire again
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Would recommend to friend
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <div class="extension-review">
+              <p><span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+              </span> <strong>by Dexter March, 06/10/2016</strong></p>
+            </div>
+            <div class="extension-review-txt">
+              <p>Deb did a great job. Got my bench warrant set aside.. Was sure I was going to jail.. phew. Judge seemd to respect her and I got what I deserved.</p>
+            </div>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <!--Review two modal --> 
+    <div class="modal fade" id="clientreviewtwo" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content modal-review">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header modal-header-client">
+          <h4 class="modal-title">Client Reviews</h4>
+        </div>
+        <div class="modal-body">
+           <div class="modal-profile-pic">
+                <div class="top-img-modal">
+                  <div class="img-pp-modal"><img src="img/joelc.png" alt="profile picture"/></div>
+                  <div class="name-pp-modal">
+                    <h2>Joel C.</h2>
+                    <p class="address-modal">Little Rock, AK</p>
+                    <p class="header-text-title">Job & Employment Law</p>
+                  </div>
+                </div>
+              <div class="rating-modal">
+                  <div class="rating-tet">Rating <span class="users-text">(30 users)</span></div>
+                  <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                   </ul>
+              </div>
+              <div class="detailed-ratings-modal">
+                <p><strong>Overall</strong> 
+                      <span class="ratings-star five-star">
+                        <i class="fas fa-star"></i>  
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                      </span>
+                </p>
+                <p>Responded in a timely manner 
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Answered questions clearly 
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Understood Needs 
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Gave complete and clear information 
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Knowledgeable in legal area
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Good value for money
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                 <p>Would hire again
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Would recommend to friend
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <div class="extension-review">
+              <p><span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+              </span> <strong>by Dexter March, 06/10/2016</strong></p>
+            </div>
+            <div class="extension-review-txt">
+              <p>Deb did a great job. Got my bench warrant set aside.. Was sure I was going to jail.. phew. Judge seemd to respect her and I got what I deserved.</p>
+            </div>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<!--Review three modal --> 
+    <div class="modal fade" id="clientreviewthree" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content modal-review">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header modal-header-client">
+          <h4 class="modal-title">Client Reviews</h4>
+        </div>
+        <div class="modal-body">
+           <div class="modal-profile-pic">
+                <div class="top-img-modal">
+                  <div class="img-pp-modal"><img src="img/bridfit.png" alt="profile picture"/></div>
+                  <div class="name-pp-modal">
+                    <h2>Brigida R.</h2>
+                    <p class="address-modal">Dallas, TX</p>
+                    <p class="header-text-title">Family Law</p>
+                  </div>
+                </div>
+              <div class="rating-modal">
+                  <div class="rating-tet">Rating <span class="users-text">(31 users)</span></div>
+                  <ul>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                      <li><i class="fas fa-star"></i></li>
+                   </ul>
+              </div>
+              <div class="detailed-ratings-modal">
+                <p><strong>Overall</strong> 
+                      <span class="ratings-star five-star">
+                        <i class="fas fa-star"></i>  
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                      </span>
+                </p>
+                <p>Responded in a timely manner 
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Answered questions clearly 
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Understood Needs 
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Gave complete and clear information 
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Knowledgeable in legal area
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Good value for money
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                 <p>Would hire again
+                  <span class="ratings-star four-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+                <p>Would recommend to friend
+                  <span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+                  </span>
+                </p>
+              </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <div class="extension-review">
+              <p><span class="ratings-star">
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i> 
+                    <i class="fas fa-star"></i>
+              </span> <strong>by Dexter March, 06/10/2016</strong></p>
+            </div>
+            <div class="extension-review-txt">
+              <p>Deb did a great job. Got my bench warrant set aside.. Was sure I was going to jail.. phew. Judge seemd to respect her and I got what I deserved.</p>
+            </div>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+<!--click category modal --> 
+    <div class="modal fade" id="clickcategory" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content modal-category">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <div class="modal-header modal-header-client">
+          <h4 class="modal-title">OTHER CATEGORIES</h4>
+          <p>Choose the category that best fits your case</p>
+        </div>
+        <div class="modal-body">
+           <ul>
+             <li>Abuse (Child, Domestic, Sexual)</li>
+             <li>Loremipsum Dolorsitamet</li>
+             <li>Agencies & Administration</li>
+             <li>Lonsectetur Scingelit(Baseererkj, Mereit)</li>
+             <li>Automobile(DUI, Crimes, Speeding)</li>
+             <li>Miam Euvelit</li>
+             <li>Automobiles(Accidents, Insurance)</li>
+            <li>Mempor Auctor(Estriam, Toeruslej)</li>
+            <li>Banking (Business, Consumer)</li>
+            <li>Nisultricies Dictumest.</li>
+            <li>Bars & Restaurants</li>
+            <li>Ntfring Sodalelit (Aeeticl Restoustoust)</li>
+            <li>Business Formation & Dissolution</li>
+            <li>Ntvarius Lectus & Congue</li>
+            <li>Children (Adoption, Custody, Support)</li>
+            <li>Pellentesque</li>
+            <li>Class Actions (Bad Drugs, Products)</li>
+            <li>Rigula Aliquamttis (Nestusotu, Wewreist)</li>
+            <li>Commercial Law and Contracts</li>
+            <li>Set Tigulempor</li>
+            <li>Commercial Real Estate</li>
+            <li>Sehicula Sedsitamet</li>
+            <li>Constitutional Law</li>
+            <li>Seque Nesturre</li>
+            <li>Construction (Disputes, Liens)</li>
+            <li>Tollis Gaurissed</li>
+            <li>Categories Item Here</li>
+            <li>Tempor Auctor (Estiarma, Toeruslej)</li>
+           </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    </body>
+</html>
